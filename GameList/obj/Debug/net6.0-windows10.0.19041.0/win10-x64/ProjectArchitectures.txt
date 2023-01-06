@@ -1,0 +1,1 @@
+C:\Users\ppetr\source\repos\GameList\GameList\GameList.csproj;x64
