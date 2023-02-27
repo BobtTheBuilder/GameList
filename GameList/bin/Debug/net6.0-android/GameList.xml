@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GameList</name>
+    </assembly>
+    <members>
+        <member name="P:GameList.ViewModel.DetailViewModel.Text">
+            <inheritdoc cref="F:GameList.ViewModel.DetailViewModel.text"/>
+        </member>
+        <member name="F:GameList.ViewModel.DetailViewModel.backCommand">
+            <summary>The backing field for <see cref="P:GameList.ViewModel.DetailViewModel.BackCommand"/>.</summary>
+        </member>
+        <member name="P:GameList.ViewModel.DetailViewModel.BackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:GameList.ViewModel.DetailViewModel.Back"/>.</summary>
+        </member>
+        <member name="P:GameList.ViewModel.MainViewModel.Items">
+            <inheritdoc cref="F:GameList.ViewModel.MainViewModel.items"/>
+        </member>
+        <member name="P:GameList.ViewModel.MainViewModel.Text">
+            <inheritdoc cref="F:GameList.ViewModel.MainViewModel.text"/>
+        </member>
+        <member name="F:GameList.ViewModel.MainViewModel.addCommand">
+            <summary>The backing field for <see cref="P:GameList.ViewModel.MainViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:GameList.ViewModel.MainViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:GameList.ViewModel.MainViewModel.Add"/>.</summary>
+        </member>
+        <member name="F:GameList.ViewModel.MainViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:GameList.ViewModel.MainViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:GameList.ViewModel.MainViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:GameList.ViewModel.MainViewModel.Delete(System.String)"/>.</summary>
+        </member>
+        <member name="F:GameList.ViewModel.MainViewModel.tapCommand">
+            <summary>The backing field for <see cref="P:GameList.ViewModel.MainViewModel.TapCommand"/>.</summary>
+        </member>
+        <member name="P:GameList.ViewModel.MainViewModel.TapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:GameList.ViewModel.MainViewModel.Tap(System.String)"/>.</summary>
+        </member>
+    </members>
+</doc>

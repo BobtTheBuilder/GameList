@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6S0qylgz5RvgjBal1CEWOKcu6sBWh7h2PdJAao4pHYMI78RuMdMaiMKdvwj/GhmoGNMersrNDdH7tUybFjGzgg==",
+  "dgSpecHash": "F65kndWmn7vZYxUGsAswo5+MW296atYw5Ks+C40+BXauZHyR27Pt9n2eo6M/5Kt/1OacPIAZwJl1uoLK3kYTkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ppetr\\source\\repos\\GameList\\GameList\\GameList.csproj",
+  "projectFilePath": "C:\\Users\\ppetr\\Source\\Repos\\BobtTheBuilder\\GameList\\GameList\\GameList.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ppetr\\.nuget\\packages\\communitytoolkit.mvvm\\8.0.0\\communitytoolkit.mvvm.8.0.0.nupkg.sha512",
     "C:\\Users\\ppetr\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\ppetr\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\ppetr\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

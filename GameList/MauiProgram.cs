@@ -1,4 +1,6 @@
-﻿namespace GameList;
+﻿using GameList.ViewModel;
+
+namespace GameList;
 
 public static class MauiProgram
 {
@@ -12,7 +14,12 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
+		builder.Services.AddSingleton<MainPage>();
+		builder.Services.AddSingleton<MainViewModel>();
 
-		return builder.Build();
+        builder.Services.AddTransient<DetailPage>();
+        builder.Services.AddTransient<DetailViewModel>();
+
+        return builder.Build();
 	}
 }
